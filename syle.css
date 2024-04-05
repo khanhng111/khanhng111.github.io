@@ -1,0 +1,46 @@
+.a {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+    max-width: 300px; /* Điều chỉnh chiều rộng của hộp liên hệ */
+    z-index: 999; /* Đảm bảo hộp liên hệ hiển thị trên tất cả các phần khác */
+}
+
+.a h2 {
+    margin-bottom: 30px;
+}
+
+.a input[type="text"],
+.a input[type="email"],
+.a textarea {
+    width: calc(100% - 22px); /* Tính toán chiều rộng của input để tránh tràn ra ngoài */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.a textarea {
+    height: 100px;
+}
+
+.a button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.a button:hover {
+    background-color: #0056b3;
+}
